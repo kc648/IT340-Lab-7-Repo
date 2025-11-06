@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
         UserModel.find()
             .then(users => {
                 const userNames = users.map(user =>`${user.firstName} ${user.lastName}`).join(`<br>`);
-                res.send(`Express.js is connected to MongoDB!<br><br>Users found in database:<br>${userNames}`);
+                res.send(`Welcome to MEAN stack!<br><br>Express.js is connected to MongoDB!<br><br>Users found in database:<br>${userNames}`);
             })
             .catch(err => {
                 console.error(err);
