@@ -28,10 +28,10 @@ app.get('/', (req, res) => {
             })
             .catch(err => {
                 console.error(err);
-                res.status(500).send('Error accessing users database.');
+                res.status(500).send(`Error accessing users database.`);
             });
 });
 
 app.listen(port, () => {
-	console.log('Server is running on port ${port}');
+	console.log(`Server is running on port ${port}`);
 });
