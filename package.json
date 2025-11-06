@@ -1,0 +1,24 @@
+{
+  "name": "mean-stack-app",
+  "version": "1.0.0",
+  "description": "Repo for Lab 7 (Setting up a MEAN stack application)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kc648/IT340-Lab-7-Repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kc648/IT340-Lab-7-Repo/issues"
+  },
+  "homepage": "https://github.com/kc648/IT340-Lab-7-Repo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
